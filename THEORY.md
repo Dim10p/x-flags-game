@@ -23,15 +23,9 @@ The optimal strategy is based on the mathematical properties of the game and can
 
 ### The Winning Position
 
-If the number of flags left at the start of a player's turn is congruent to 0 modulo (`m + 1`), i.e.,
+If the number of flags left at the start of a player's turn is congruent to 0 modulo (`m + 1`), then the player is in a winning position.
 
-\[ n \equiv 0 \ (\text{mod} \ m + 1) \]
-
-then the player is in a winning position. Conversely, if
-
-\[ n \not\equiv 0 \ (\text{mod} \ m + 1) \]
-
-the player is in a losing position.
+If not, then the player is in a losing position.
 
 ### Player Strategy
 
